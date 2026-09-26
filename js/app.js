@@ -36,7 +36,7 @@ form.addEventListener("submit", async function (event) {
     try {
 
         // 2. Python 백엔드로 요청
-        const response = await fetch("/api/generate", {
+        const response = await fetch("/api", {
             method: "POST",
 
             headers: {
